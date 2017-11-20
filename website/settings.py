@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'a3hn*!9-3f)g88+gcln0i-umsxg9zf
 #DEBUG = True
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
-ALLOWED_HOSTS = ['adcon.herokuapp.com','127.0.0.1','0.0.0.0','adriatic.construction']
+ALLOWED_HOSTS = ['adcon.herokuapp.com','127.0.0.1','0.0.0.0','adriatic.construction','www.adriatic.construction.herokudns.com','adriatic.construction.herokudns.com','www.adriatic.construction']
 
 
 # Application definition
