@@ -471,18 +471,19 @@
 /* Type */
 
 	body, input, textarea, select {
-		font-family: "Source Sans Pro", "sans-serif";
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-weight: 300;
-		font-size: 18pt;
-		line-height: 1.75em;
-		color: #39454b;
+		font-size: 1em;
+		line-height: 1.65em;
+		color: #ffffff;
 		letter-spacing: 0.025em;
+        text-transform: uppercase;
 	}
 
 		@media screen and (max-width: 1920px) {
 
 			body, input, textarea, select {
-				font-size: 17pt;
+				font-size: 11pt;
 			}
 
 		}
@@ -490,7 +491,7 @@
 		@media screen and (max-width: 1680px) {
 
 			body, input, textarea, select {
-				font-size: 15pt;
+				font-size: 11pt;
 			}
 
 		}
@@ -498,7 +499,7 @@
 		@media screen and (max-width: 1280px) {
 
 			body, input, textarea, select {
-				font-size: 13pt;
+				font-size: 11pt;
 			}
 
 		}
@@ -521,9 +522,10 @@
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 900;
-		color: inherit;
-		letter-spacing: -0.0325em;
+		font-weight: 300;
+		color: #ffffff;
+		letter-spacing: 0.1em;
+        text-transform: uppercase;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -546,8 +548,8 @@
 	}
 
 	strong, b {
-		font-weight: 900;
-		color: inherit;
+		font-weight: 300;
+		color: #ffffff;
 	}
 
 	em, i {
@@ -592,8 +594,8 @@
 /* Box */
 
 	.box {
-		background: #ffffff;
-		color: #39454b;
+		background: #242629;
+		color: #ffffff;
 		padding: 2em;
 	}
 
@@ -1067,7 +1069,7 @@
 		-webkit-box-sizing: content-box;
 		-ms-box-sizing: content-box;
 		box-sizing: content-box;
-		background: #fff;
+		background: #242629;
 		padding-bottom: 3em;
 		box-shadow: 0 0.1em 0.15em 0 rgba(0, 0, 0, 0.15);
 	}
@@ -1111,7 +1113,7 @@
 			position: absolute;
 			bottom: 0;
 			left: 0;
-			background: #ffffff;
+			background: #242629;
 			width: 100%;
 			height: 3em;
 			line-height: 2.8em;
@@ -1665,7 +1667,7 @@
 		left: 0;
 		top: 0;
 		width: 100%;
-		background: rgba(255, 255, 255, 0.95);
+		background: #1f2224;
 		height: 3em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
@@ -1876,11 +1878,11 @@
 			}
 
 			.main.style3.primary {
-				background: #ffffff;
+				background: #242629;
 			}
 
 			.main.style3.secondary {
-				background: #f5f6f7;
+				background: #242629;
 			}
 
 		.main.dark {
@@ -1993,7 +1995,7 @@
 		height: 5em;
 		line-height: 5em;
 		margin: 0;
-		background: #39454b;
+		background: #1f2224;
 		color: rgba(185, 186, 187, 0.5);
 		overflow: hidden;
 	}
