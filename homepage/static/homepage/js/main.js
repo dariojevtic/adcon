@@ -31,7 +31,7 @@
 			skel.on('change', function() {
 
 				if (skel.vars.mobile || skel.breakpoint('small').active)
-					$body.removeClass('is-touch');
+					$body.addClass('is-touch');
 				else
 					$body.removeClass('is-touch');
 
@@ -188,7 +188,7 @@
 				skel.on('change', function() {
 
 					if (skel.breakpoint('small').active)
-						(off)();
+						(on)();
 					else
 						(on)();
 
