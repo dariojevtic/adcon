@@ -11,6 +11,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
+        
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -1963,6 +1964,7 @@
 
 			.main.style1 {
 				padding: 4em 15px 4em 15px;
+                font-size: .85em;
 			}
 
 				.main.style1 h2 {

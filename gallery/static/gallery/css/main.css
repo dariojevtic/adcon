@@ -2015,7 +2015,7 @@
 		#headert nav3 {
 			position: absolute;
 			right: 0.5em;
-			top: 0;
+			top: .2em;
 			height: 3em;
 			line-height: 3em;
 		}
@@ -2024,9 +2024,9 @@
 			}
 				#headert nav3 ul3 li3 {
 					display: inline-block;
-					margin-left: 0.5em;
+					margin-left: .5em;
                     text-transform: uppercase;
-                    font-size: 10pt;
+                    font-size: 9.95pt;
 				}
 					#headert nav3 ul3 li3 a {
 						display: block;
