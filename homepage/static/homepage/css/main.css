@@ -1718,8 +1718,8 @@
 		@media screen and (max-width: 736px) {
 
 			#header {
-				height: 2em;
-				line-height: 2em;
+				height: 2.5em;
+				line-height: 2.5em;
 			}
 
 				#header h1 {
@@ -1732,8 +1732,8 @@
 					position: relative;
 					left: 0;
 					top: 0;
-					height: 2em;
-					line-height: 2em;
+					height: 2.5em;
+					line-height: 2.5em;
 				}
                     #header nav ul {
 				        margin: 0;
@@ -1741,16 +1741,16 @@
 
 				        #header nav ul li {
                             display: inline-block;
-                            margin-left: 0.5em;
-                            font-size: 0.9em;
+                            margin-left: 0em;
+                            font-size: 1em;
                         }
 
                             #header nav ul li a {
                                 display: block;
                                 color: inherit;
                                 text-decoration: none;
-                                height: 3em;
-                                line-height: 3em;
+                                height: 2.5em;
+                                line-height: 2.5em;
                                 padding: 0 0.5em 0 0.5em;
                                 outline: 0;
 					       }
