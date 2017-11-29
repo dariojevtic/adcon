@@ -474,7 +474,7 @@
 	body, input, textarea, select {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-weight: 300;
-		font-size: 1em;
+		font-size: 15pt;
 		line-height: 1.65em;
 		color: #ffffff;
 		letter-spacing: 0.025em;
@@ -508,7 +508,7 @@
 		@media screen and (max-width: 1000px) {
 
 			body, input, textarea, select {
-				font-size: 13pt;
+				font-size: 11pt;
 			}
 
 		}
@@ -516,8 +516,7 @@
 		@media screen and (max-width: 736px) {
 
 			body, input, textarea, select {
-				font-size: 12pt;
-				line-height: 1.5em;
+				font-size: 11pt;
 			}
 
 		}
@@ -1669,8 +1668,8 @@
 		top: 0;
 		width: 100%;
 		background: #1f2224;
-		height: 3em;
-		line-height: 3em;
+		height: 2.5em;
+		line-height: 2.5em;
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
 	}
 
@@ -1678,9 +1677,10 @@
 			position: absolute;
 			left: 1em;
 			top: 0;
-			height: 3em;
-			line-height: 3em;
+			height: 2.5em;
+			line-height: 2em;
 			cursor: default;
+            font-size: 14pt;
 		}
 
 			#header h1 a {
@@ -1691,8 +1691,8 @@
 			position: absolute;
 			right: 0.5em;
 			top: 0;
-			height: 3em;
-			line-height: 3em;
+			height: 2.5em;
+			line-height: 2.5em;
 		}
 
 			#header nav ul {
@@ -1702,15 +1702,15 @@
 				#header nav ul li {
 					display: inline-block;
 					margin-left: 0.5em;
-					font-size: 0.9em;
+					font-size: 14pt;
 				}
 
 					#header nav ul li a {
 						display: block;
 						color: inherit;
 						text-decoration: none;
-						height: 3em;
-						line-height: 3em;
+						height: 2.5em;
+						line-height: 2.5em;
 						padding: 0 0.5em 0 0.5em;
 						outline: 0;
 					}
@@ -1718,8 +1718,8 @@
 		@media screen and (max-width: 736px) {
 
 			#header {
-				height: 2.5em;
-				line-height: 2.5em;
+				height: 2em;
+				line-height: 2em;
 			}
 
 				#header h1 {
@@ -1732,8 +1732,8 @@
 					position: relative;
 					left: 0;
 					top: 0;
-					height: 2.5em;
-					line-height: 2.5em;
+					height: 2em;
+					line-height: 2em;
 				}
                     #header nav ul {
 				        margin: 0;
@@ -1758,7 +1758,7 @@
 		}
 
 	body {
-		padding-top: 3em;
+		padding-top: 2.5em;
 	}
 
 		@media screen and (max-width: 736px) {
@@ -2111,7 +2111,7 @@
 /* Intro */
 
 	#intro {
-        background: url(), url("../images/intro.jpg");
+        background: url(), #242629 url("../images/intro.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2121,7 +2121,7 @@
 /* One */
 
 	#one {
-        background: url(), url("../images/one.jpg");
+        background: url(), #242629 url("../images/one.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -2130,7 +2130,7 @@
 /* Two */
 
 	#two {
-        background: url(), url("../images/two.jpg");
+        background: url(), #242629 url("../images/two.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;

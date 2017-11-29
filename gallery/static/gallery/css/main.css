@@ -229,7 +229,7 @@
 	}
 
 	h3 {
-		font-size: 1.1em;
+		font-size: 1em;
 	}
 
 	h4 {
@@ -1412,7 +1412,7 @@
 		#header h1 {
 			color: #a0a0a1;
 			display: inline-block;
-			font-size: 1em;
+			font-size: 14pt;
 			line-height: 1;
 			margin: 0;
 			vertical-align: middle;
@@ -1452,6 +1452,7 @@
 						border: 0;
 						color: #ffffff;
 						display: inline-block;
+                        font-size: 14pt;
 						letter-spacing: 0.1em;
 						padding: 0 1.65em;
 						text-transform: uppercase;
@@ -1495,11 +1496,11 @@
 			}
 
 			#header h1 {
-				font-size: 0.9em;
+				font-size: 0.8em;
 			}
 
 			#header nav > ul > li a {
-				font-size: 0.9em;
+				font-size: 0.8em;
 				padding: 0 1.15em;
 			}
 
@@ -1996,17 +1997,17 @@
 		top: 0;
 		width: 100%;
 		background: #1f2224;
-		height: 3em;
-		line-height: 3em;
+		height: 2em;
+		line-height: 2em;
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
-        font-size: 10pt;
+        font-size: 14pt;
 	}
 		#headert h3 {
 			position: absolute;
 			left: 1em;
 			top: 0;
-			height: 3em;
-			line-height: 3em;
+			height: 2em;
+			line-height: 2em;
 			cursor: default;
 		}
 			#headert h3 a {
@@ -2014,26 +2015,26 @@
 			}
 		#headert nav3 {
 			position: absolute;
-			right: 0.5em;
+			right: 0.75em;
 			top: .2em;
-			height: 3em;
-			line-height: 3em;
+			height: 2em;
+			line-height: 2em;
 		}
 			#headert nav3 ul3 {
 				margin: 0;
 			}
 				#headert nav3 ul3 li3 {
 					display: inline-block;
-					margin-left: .5em;
+					margin-left: .47em;
                     text-transform: uppercase;
-                    font-size: 9.95pt;
+                    font-size: 14pt;
 				}
 					#headert nav3 ul3 li3 a {
 						display: block;
 						color: #ffffff;
 						text-decoration: none;
-						height: 3em;
-						line-height: 3em;
+						height: 2em;
+						line-height: 2em;
 						padding: 0 0.5em 0 0.5em;
 						outline: 0;
                         border-bottom-color: transparent!important;
@@ -2046,19 +2047,19 @@
 		@media screen and (max-width: 736px) {
 
 			#headert {
-				height: 3em;
-				line-height: 3em;
+				height: 2.15em;
+				line-height: 2.15em;
 			}
 				#headert h3 {
                     display: none;
 				}
 				#headert nav3 {
 					text-align: center;
-					position: center;
+					position: relative;
 					left: 0em;
 					top: 0;
-					height: 3em;
-					line-height: 3em;
+					height: 2.15em;
+					line-height: 2.15em;
 				}
                     #headert nav3 ul3 {
 				        margin: 0;
@@ -2066,21 +2067,21 @@
 				        #headert nav3 ul3 li3 {
                             display: inline-block;
                             margin-left: 0em;
-                            font-size: 1.1em;
+                            font-size: .8em;
                         }
                             #headert nav3 ul3 li3 a {
                                 display: block;
                                 color: #ffffff;
                                 text-decoration: none;
-                                height: 3em;
+                                height: 2.5em;
                                 line-height: -.9em;
-                                padding: 0 0.5em 0 0.5em;
+                                padding: 0 0.5em 0 .75em;
                                 outline: 0;
                                 
 					       }
 		}
 	body {
-		padding-top: 3em;
+		padding-top: 1.75em;
 	}
 		@media screen and (max-width: 736px) {
 			body {
